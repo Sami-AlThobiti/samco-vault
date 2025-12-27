@@ -675,6 +675,7 @@ const AIGeneratorView = ({ theme }) => {
     setGeneratedPrompt('');
     try {
       const apiKey = import.meta.env.VITE_GEMINI_KEY || "";
+
       const userQuery = `
         Act as a professional prompt engineer for Midjourney.
         Input Concept: "${input}"

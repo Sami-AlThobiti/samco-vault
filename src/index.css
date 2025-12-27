@@ -1,8 +1,9 @@
 @tailwind base;
 @tailwind components;
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
-/* إخفاء شريط التمرير */
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
